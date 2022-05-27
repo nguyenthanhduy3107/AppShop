@@ -1,0 +1,11 @@
+<a
+style="cursor: pointer;"
+[routerLink]="[index]"
+routerLinkActive="active">
+    <a href="#" class="img-wrap"> 
+        <img [src]="product.imagePath"> </a>
+                <figcaption class="info-wrap">
+                    <a href="#" class="title">{{product.name}}</a>
+                    <div class="price mt-1">{{product.price}}</div> <!-- price-wrap.// -->
+                </figcaption>
+</a>
