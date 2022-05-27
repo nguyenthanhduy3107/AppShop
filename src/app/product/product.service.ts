@@ -12,9 +12,9 @@ export class ProductService{
         new Product('Lightning Cable','assets/images/items/lightning-cable.jpeg',400000),
         new Product('Apple Magic Mouse 2 Space Gray','assets/images/items/mouse-space.jpeg',2400000),
         new Product('Apple Magic Mouse 2 White','assets/images/items/mouse-white.jpeg',2200000),
-        new Product('Apple Multiport','assets/images/items/MultiPort.jpg',2700000),
+        new Product('Apple Multiport','assets/images/items/Multiport.jpg',2700000),
         new Product('Apple Pencil','assets/images/items/pencil.jpeg',2300000),
-        new Product('USB Type-C Power Adapter','assets/images/items/USB-C_power-adapter.jpg',1800000),
+        new Product('USB Type-C Power Adapter','assets/images/items/USB-C_power-adpter.jpg',1800000),
         new Product('USB Type-C','assets/images/items/USB-C.jpeg',600000),
         new Product('Apple Watch','assets/images/items/watch.jpg',12800000)
     ]
