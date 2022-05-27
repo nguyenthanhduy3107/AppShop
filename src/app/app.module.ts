@@ -13,6 +13,7 @@ import { ProductComponent } from './product/product.component';
 import { ProductService } from './product/product.service';
 import { PopularProductItemComponent } from './product/popular-product-list/popular-product-item/popular-product-item.component';
 import { ProductDetailComponent } from './product/product-detail/product-detail.component';
+import { ProductStartComponent } from './product/product-start/product-start.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProductDetailComponent } from './product/product-detail/product-detail.
     PopularProductListComponent,
     ProductComponent,
     PopularProductItemComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    ProductStartComponent
   ],
   imports: [
     BrowserModule,
