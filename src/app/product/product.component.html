@@ -1,2 +1,8 @@
-
-    <app-popular-product-list></app-popular-product-list>
+<app-popular-product-list></app-popular-product-list>
+<app-product-detail 
+*ngIf="selectedProduct;
+else infotext"
+[product]="selectedProduct"></app-product-detail>
+<ng-template #infotext>
+    <p>Please select a product</p>
+</ng-template>

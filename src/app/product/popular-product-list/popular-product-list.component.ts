@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Product } from '../product.model';
 import { ProductService } from '../product.service';
 
@@ -10,11 +10,12 @@ import { ProductService } from '../product.service';
 })
 export class PopularProductListComponent implements OnInit {
 
-  products:Product[];
-  constructor(private productService:ProductService) { }
+  products: Product[];
+  constructor(private productService: ProductService) { }
 
   ngOnInit(): void {
-    this.products=this.productService.getProduct();
+    this.products = this.productService.getProducts();
   }
 
 }
+

@@ -12,6 +12,7 @@ import { PopularProductListComponent } from './product/popular-product-list/popu
 import { ProductComponent } from './product/product.component';
 import { ProductService } from './product/product.service';
 import { PopularProductItemComponent } from './product/popular-product-list/popular-product-item/popular-product-item.component';
+import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PopularProductItemComponent } from './product/popular-product-list/popu
     PopularProductComponent,
     PopularProductListComponent,
     ProductComponent,
-    PopularProductItemComponent
+    PopularProductItemComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,
