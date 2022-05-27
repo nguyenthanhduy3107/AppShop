@@ -18,4 +18,7 @@ export class ProductService{
         new Product('USB Type-C','assets/images/items/USB-C.jpeg',600000),
         new Product('Apple Watch','assets/images/items/watch.jpg',12800000)
     ]
+    getProduct() {
+        return this.products.slice(); 
+        }
 }

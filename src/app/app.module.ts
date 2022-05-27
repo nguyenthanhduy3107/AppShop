@@ -8,10 +8,10 @@ import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { MenuCategoryComponent } from './menu-category/menu-category.component';
 import { PopularProductComponent } from './popular-product/popular-product.component';
-import { PopularProductListComponent } from './popular-product-list/popular-product-list.component';
+import { PopularProductListComponent } from './product/popular-product-list/popular-product-list.component';
 import { ProductComponent } from './product/product.component';
 import { ProductService } from './product/product.service';
-import { PopularProductItemComponent } from './popular-product-list/popular-product-item/popular-product-item.component';
+import { PopularProductItemComponent } from './product/popular-product-list/popular-product-item/popular-product-item.component';
 
 @NgModule({
   declarations: [

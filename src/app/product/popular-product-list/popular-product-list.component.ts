@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Product } from '../product/product.model';
-import { ProductService } from '../product/product.service';
+import { Product } from '../product.model';
+import { ProductService } from '../product.service';
+
 
 @Component({
   selector: 'app-popular-product-list',
@@ -13,6 +14,7 @@ export class PopularProductListComponent implements OnInit {
   constructor(private productService:ProductService) { }
 
   ngOnInit(): void {
+    this.products=this.productService.getProduct();
   }
 
 }
